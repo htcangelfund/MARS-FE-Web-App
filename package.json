@@ -1,0 +1,37 @@
+{
+  "name": "mars",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "e2e": "nightwatch --env chrome"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.14.1",
+    "iosselect": "^1.1.5",
+    "lodash": "^4.17.20",
+    "mint-ui": "^2.2.13",
+    "nightwatch": "^1.5.1",
+    "swiper": "^6.3.5",
+    "vue": "^2.6.11",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-router": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "chromedriver": "^87.0.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
